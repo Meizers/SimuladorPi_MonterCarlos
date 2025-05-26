@@ -7,8 +7,8 @@ public class Main {
             // Preguntar modo
             String[] opciones = {"Modo infinito", "Modo maximo"};
             int modo = JOptionPane.showOptionDialog(null,
-                    "Seleccionr el modo de simulación",
-                    "Modo de ejecución",
+                    "Seleccionr el modo de simulacion",
+                    "Modo de ejecucion",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.QUESTION_MESSAGE,
                     null,
@@ -33,7 +33,7 @@ public class Main {
             }
 
             // Interfaz Grafica
-            JFrame frame = new JFrame("Estimación de PI");
+            JFrame frame = new JFrame("Estimacion de PI");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
             JLabel piLabel = new JLabel("Estimacion de π: ");
